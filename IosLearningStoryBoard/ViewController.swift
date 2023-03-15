@@ -14,17 +14,17 @@ class ViewController: UIViewController {
     let reusableIdentifier = "appListreuableCell"
     let reusableCellClass = "CustomHomeTableViewCell"
     var appList:[AppListModel] = [
-    AppListModel(t: "I AM RICH", i: "iamrich"),
-    AppListModel(t: "I AM POOR", i: "iampoor"),
-    AppListModel(t: "DICEE ROLL", i: "diceeroll"),
-    AppListModel(t: "MAGIC 8 BALL", i: "magicball"),
-    AppListModel(t: "CALCULATOR", i: "calculator"),
-    AppListModel(t: "XYLOPHONE", i: "xylophone"),
-    AppListModel(t: "EGG TIMER", i: "eggtimer"),
-    AppListModel(t: "QUIZZLER", i: "quizzler"),
-    AppListModel(t: "QUIZM", i: "quizzler"),
-    AppListModel(t: "DESTINI", i: "destini")
-    
+        AppListModel(t: "TIPSY", i: "tipsy"),
+        AppListModel(t: "DESTINI", i: "destini"),
+        AppListModel(t: "QUIZM", i: "quizzler"),
+        AppListModel(t: "QUIZZLER", i: "quizzler"),
+        AppListModel(t: "EGG TIMER", i: "eggtimer"),
+        AppListModel(t: "XYLOPHONE", i: "xylophone"),
+        AppListModel(t: "CALCULATOR", i: "calculator"),
+        AppListModel(t: "MAGIC 8 BALL", i: "magicball"),
+        AppListModel(t: "DICEE ROLL", i: "diceeroll"),
+        AppListModel(t: "I AM POOR", i: "iampoor"),
+        AppListModel(t: "I AM RICH", i: "iamrich")
     ]
     
     
@@ -86,6 +86,10 @@ class ViewController: UIViewController {
             
         case "DESTINI":
             performSegue(withIdentifier: "gotoDestini", sender: self)
+            break
+            
+        case "TIPSY":
+            performSegue(withIdentifier: "gotoTipsy", sender: self)
             break
             
         default:
