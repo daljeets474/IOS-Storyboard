@@ -14,6 +14,7 @@ class ViewController: UIViewController {
     let reusableIdentifier = "appListreuableCell"
     let reusableCellClass = "CustomHomeTableViewCell"
     var appList:[AppListModel] = [
+        AppListModel(t: "CLIMA", i: "clima"),
         AppListModel(t: "TIPSY", i: "tipsy"),
         AppListModel(t: "DESTINI", i: "destini"),
         AppListModel(t: "QUIZM", i: "quizzler"),
@@ -90,6 +91,10 @@ class ViewController: UIViewController {
             
         case "TIPSY":
             performSegue(withIdentifier: "gotoTipsy", sender: self)
+            break
+        
+        case "CLIMA":
+            performSegue(withIdentifier: "gotoClima", sender: self)
             break
             
         default:

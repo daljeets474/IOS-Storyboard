@@ -41,6 +41,10 @@
 		852B684029BE2B4800BF08F7 /* DestiniViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 852B683F29BE2B4800BF08F7 /* DestiniViewController.swift */; };
 		852EC87929C1804C0078CEE4 /* TipsyCalculator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 852EC87829C1804C0078CEE4 /* TipsyCalculator.swift */; };
 		852EC87B29C1829A0078CEE4 /* TipsyModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 852EC87A29C1829A0078CEE4 /* TipsyModel.swift */; };
+		852EC8AC29C1D6E70078CEE4 /* ClimaViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 852EC8AB29C1D6E70078CEE4 /* ClimaViewController.swift */; };
+		852EC8AE29C1E0CD0078CEE4 /* ClimaDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 852EC8AD29C1E0CD0078CEE4 /* ClimaDelegate.swift */; };
+		852EC8B029C1E0FB0078CEE4 /* ClimaResultModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 852EC8AF29C1E0FB0078CEE4 /* ClimaResultModel.swift */; };
+		852EC8B229C1E13A0078CEE4 /* ClimaManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 852EC8B129C1E13A0078CEE4 /* ClimaManager.swift */; };
 		85999FF129BEF06200BA569B /* DestiniModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 85999FF029BEF06200BA569B /* DestiniModel.swift */; };
 		85999FF329BEF1D300BA569B /* DestiniManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 85999FF229BEF1D300BA569B /* DestiniManager.swift */; };
 		85999FF529BEF74800BA569B /* DestiniProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = 85999FF429BEF74800BA569B /* DestiniProtocol.swift */; };
@@ -83,6 +87,10 @@
 		852B683F29BE2B4800BF08F7 /* DestiniViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DestiniViewController.swift; sourceTree = "<group>"; };
 		852EC87829C1804C0078CEE4 /* TipsyCalculator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TipsyCalculator.swift; sourceTree = "<group>"; };
 		852EC87A29C1829A0078CEE4 /* TipsyModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TipsyModel.swift; sourceTree = "<group>"; };
+		852EC8AB29C1D6E70078CEE4 /* ClimaViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ClimaViewController.swift; sourceTree = "<group>"; };
+		852EC8AD29C1E0CD0078CEE4 /* ClimaDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ClimaDelegate.swift; sourceTree = "<group>"; };
+		852EC8AF29C1E0FB0078CEE4 /* ClimaResultModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ClimaResultModel.swift; sourceTree = "<group>"; };
+		852EC8B129C1E13A0078CEE4 /* ClimaManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ClimaManager.swift; sourceTree = "<group>"; };
 		85999FF029BEF06200BA569B /* DestiniModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DestiniModel.swift; sourceTree = "<group>"; };
 		85999FF229BEF1D300BA569B /* DestiniManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DestiniManager.swift; sourceTree = "<group>"; };
 		85999FF429BEF74800BA569B /* DestiniProtocol.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DestiniProtocol.swift; sourceTree = "<group>"; };
@@ -118,6 +126,7 @@
 		8507AC2C29BB3FEF00514EE5 /* IosLearningStoryBoard */ = {
 			isa = PBXGroup;
 			children = (
+				852EC8AA29C1D6CA0078CEE4 /* Clima */,
 				852ABB6F29C02785009DDF62 /* Tipsy */,
 				852B683E29BE2B3500BF08F7 /* Destini */,
 				852B683729BE27F600BF08F7 /* QuizzlerM */,
@@ -272,6 +281,17 @@
 			path = Destini;
 			sourceTree = "<group>";
 		};
+		852EC8AA29C1D6CA0078CEE4 /* Clima */ = {
+			isa = PBXGroup;
+			children = (
+				852EC8AB29C1D6E70078CEE4 /* ClimaViewController.swift */,
+				852EC8AD29C1E0CD0078CEE4 /* ClimaDelegate.swift */,
+				852EC8AF29C1E0FB0078CEE4 /* ClimaResultModel.swift */,
+				852EC8B129C1E13A0078CEE4 /* ClimaManager.swift */,
+			);
+			path = Clima;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -354,12 +374,15 @@
 				8507AC4B29BB4F4300514EE5 /* IAmRichViewController.swift in Sources */,
 				852EC87929C1804C0078CEE4 /* TipsyCalculator.swift in Sources */,
 				8507AC3229BB3FEF00514EE5 /* ViewController.swift in Sources */,
+				852EC8AE29C1E0CD0078CEE4 /* ClimaDelegate.swift in Sources */,
+				852EC8B229C1E13A0078CEE4 /* ClimaManager.swift in Sources */,
 				852EC87B29C1829A0078CEE4 /* TipsyModel.swift in Sources */,
 				8507AC5129BB6C5600514EE5 /* DiceeRollViewController.swift in Sources */,
 				852B683B29BE283500BF08F7 /* QuizMModel.swift in Sources */,
 				852ABB7129C0281D009DDF62 /* TipsyViewController.swift in Sources */,
 				852B683D29BE28C300BF08F7 /* QuizManager.swift in Sources */,
 				8507AC2E29BB3FEF00514EE5 /* AppDelegate.swift in Sources */,
+				852EC8B029C1E0FB0078CEE4 /* ClimaResultModel.swift in Sources */,
 				85999FF529BEF74800BA569B /* DestiniProtocol.swift in Sources */,
 				852B683229BE182C00BF08F7 /* QuizzlerViewController.swift in Sources */,
 				85999FF329BEF1D300BA569B /* DestiniManager.swift in Sources */,
@@ -374,6 +397,7 @@
 				85999FF129BEF06200BA569B /* DestiniModel.swift in Sources */,
 				8507AC5529BB6D4600514EE5 /* CalculatorViewController.swift in Sources */,
 				852B683629BE1E6E00BF08F7 /* QuizzBrain.swift in Sources */,
+				852EC8AC29C1D6E70078CEE4 /* ClimaViewController.swift in Sources */,
 				8507AC4429BB442300514EE5 /* CustomHomeTableViewCell.swift in Sources */,
 				8507AC5A29BB8A9200514EE5 /* XylophoneViewController.swift in Sources */,
 				8507AC5729BB6D5300514EE5 /* MagicBallViewController.swift in Sources */,
